@@ -1,6 +1,3 @@
-# SMTP
-利用python内置smtplib,email模块，基于smtp协议，实现自动化发送邮件
-
 #SMTP
 @(博客)[python, smtp, Python]
 
@@ -129,3 +126,12 @@ smtp.quit()
 获取实例化对象的类名：`__class__.__name__`
 ![Alt text](./1529294148567.png)
 
+##必要的设置
+1. 如果是网易邮箱
+![Alt text](./1529298708651.png)
+
+2. 如果是QQ邮箱
+![Alt text](./1529298888067.png)
+![Alt text](./1529298925876.png)
+
+代码中的邮箱密码，不是邮箱的真实代码，而是授权密码。
