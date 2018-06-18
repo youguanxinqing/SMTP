@@ -100,9 +100,9 @@ smtp = smtplib.SMTP_SSL()
 # 连接邮件服务器
 smtp.connect("smtp.qq.com")
 # 登陆自己的邮箱
-smtp.login("578306307@qq.com", "htnyrbavmhifbcga")
+smtp.login("578******@qq.com", "ht********ga")
 # 发送邮件
-smtp.sendmail("578306307@qq.com", "guanyixin995@163.com", aLetter.as_string())
+smtp.sendmail("578******@qq.com", "guan******@163.com", aLetter.as_string())
 # 退出连接
 smtp.quit()
 ```
